@@ -55,13 +55,15 @@
                 let el = document.createElement("div");
                 document.body.appendChild(el);
                 el.innerHTML = `
-                    <br/><input id="address" class="address" type="text" value="" placeholder=" Enter ${network} address..." />
+                    <br/><input id="address" class="address" type="text" value="" placeholder="" />
                     <br>&nbsp;<br>
                     <div id="submit" class="link">Click to monitor address</div>
                     <br>&nbsp;<br>
                     <div id="restart" class="link">Restart</div>
                     <br>&nbsp;<br>
                 `;
+                let addressInput = document.getElementById("address");
+                addressInput.placeholder = ` Enter ${network} address...`;
 
                 // let input = document.getElementById("address");
                 let submit = document.getElementById("submit");
