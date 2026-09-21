@@ -318,7 +318,7 @@ nw-sys = "0.1.6"
 rustls = { version = "0.23.18", default-features = false, features = ["ring"] }
 
 # workflow dependencies
-workflow-core = { version = "0.18.0" }
+workflow-core = { version = "0.19.0" }
 workflow-d3 = { version = "0.18.0" }
 workflow-dom = { version = "0.18.0" }
 workflow-http = { version = "0.18.0", default-features = false, features = ["rustls-tls-webpki-roots", "http2", "charset", "macos-system-configuration"] }
